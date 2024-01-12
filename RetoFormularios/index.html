@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejemplo de HTML con Formularios</title>
+    </head>
+    <body>
+        <h1>Formularios en HTML</h1>
+        <h2>Datos Personales</h2>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Teléfono</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+        <h2>Género</h2>
+        <input type="radio" id="masculino" value="Masculino" name="género">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="femenino" value="Femenino" name="género">
+        <label for="femenino">Femenino</label><br>
+        <input type="radio" id="otro" value="Otro" name="género">
+        <label for="otro">Otro</label>
+        <br>
+        <h2>Preferencias</h2>
+        <input type="checkbox" id="musica" value="Música" name="preferencias">
+        <label for="musica">Música</label><br>
+        <input type="checkbox" id="deportes" value="Deportes" name="preferencias">
+        <label for="deportes">Deportes</label><br>
+        <input type="checkbox" id="lectura" value="Lectura" name="preferencias">
+        <label for="lectura">Lectura</label>
+        <br>
+        <h2>Comentarios</h2>
+        <textarea cols="40" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+    </body>
+</html>
